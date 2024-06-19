@@ -1,0 +1,69 @@
+
+
+header img {
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 75px;
+}
+
+.logo img {
+    width: 412px;
+    height: 100px;
+} 
+
+h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    color: black;
+    font-size: x-large;
+}
+
+.nike p {
+    font-size: medium;
+    width: 240px;
+}
+
+.sneakers p {
+    width: 220px;
+}
+
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin: 20px;
+} 
+
+p {
+    font-family: "Dosis";
+}
+
+@media screen and (max-width:768px) {
+
+    .cabecera img {
+        width: 768px;
+    }
+
+    .nike {
+        width: 728px;
+        height: 398px;
+    }
+
+    .sneakers, .adidas {
+        margin-top: 80px;
+    }
+
+    .sneakers img, .adidas img {
+        width: 354px;
+        height: 398px;
+    }
+}
+

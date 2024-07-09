@@ -63,7 +63,9 @@ p {
 
     .sneakers img, .adidas img {
 
-        #barraaceptacion {
+}
+
+#barraaceptacion {
     display:none;
     position:fixed;
     left:0px;
@@ -101,5 +103,4 @@ p {
         width: 354px;
         height: 398px;
     }
-}
 
